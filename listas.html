@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Las listas en html sirven para listar contenido. En funcion del tipo de contenido de nuestra lista tenemos tres tipos de listas:
+        
+        ul -> unordered list: lista de compras
+
+        ol -> ordered list: top 10
+
+        Cada elemento de la lista se representa con la eqtiqueta <li>, tanto en las ul como en las ol.
+
+        dl -> definition list: diccionario
+
+        Cada elemento lleva 2 etiquetas
+            dt -> Definition term: El termino que vamos a definir
+            dd -> Definition description: La descripcion del termino
+
+        ATRIBUTOS DE LAS LISTAS
+
+        ol -> 
+            type: Estilo de numeracion (1, A, a ,I, i)
+            start: Inicio de la secuencia (un numero)
+
+        ul ->
+            type: Estilo de los items (disc, square, circle)
+
+     -->
+
+     <h1>Listas</h1>
+
+        <h2>Lista de la compra</h2>
+     <ul>   
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Leche</li>
+     </ul>
+
+     <h2>Orden de aprendizaje en el desarrollo web</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <h2>Lenguajes para el desarrollo web</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language: es un lenguaje de marcado que se usa para estructurar datos en una pagina web
+        </dd>
+        <dt>CSS</dt>
+        <dd>Cascade Style Sheet: es un lenguaje de diseño que se utiliza para dar estilo al HTML
+        </dd>
+        <dt>JS</dt>
+        <dd>Es un lenguaje de marcado para dar interactividad a un sitio web
+        </dd>
+    </dl>
+
+     <!-- SEMANTICA CORRECTA DE UN MENU -->
+     <nav>  <!-- horizontales o se despliegan -->
+        <ul>
+            <li><a href="#post1">Post 1</a></li>
+            <li><a href="#post2">Post 2</a></li>
+            <li><a href="#post3">Post 3</a></li>
+            <li><a href="#post4">Post 4</a></li>
+            <li><a href="#post5">Post 5</a></li>
+        </ul>
+
+    <h2>Atributos en las listas</h2>
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol type="i" start="3">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      
+    </ol>
+        
+    </nav>
+</body>
+</html>

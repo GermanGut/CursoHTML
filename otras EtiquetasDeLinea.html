@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        span {
+            color: rgb(127, 255, 176);
+        }
+    </style>
+</head>
+    <!-- 
+        span -> contenedor de linea, equivalente a div.
+            Se suele usar para encerrar palabras o pequeños textos y darles estilo a traves de CSS o localizarlos desde JS.
+            Semanticamente no significa nada
+
+        q -> Es el equivalente a blockquote.
+            Significa quote, por eso el de bloque se block - quote.
+            Sirve para poner citas pero en linea.
+        
+        code -> Sirve para encerrar codigo que queremos representar visualmente, suele ir unido con la etiqueta pre.
+
+        Entidades especiales en HTML - Codigo ASCII
+            https://ascii.cl/es/codigos-html.htm
+     -->
+
+<body>
+    
+    <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing</span>  elit. Asperiores ipsum optio laborum corrupti deserunt dolorum cupiditate quidem, nobis inventore suscipit. Earum quam repudiandae perspiciatis, voluptates dicta iste modi ut laboriosam.</p>
+
+    <q cite="https://ascii.cl/es/codigos-html.htm">
+        acevedo 225
+        villa soledad
+        salta, capital
+    </q>
+
+    <pre>
+        <code>  <!-- Para representar codigo visualmente -->
+            span {
+                color: rgb(255, 142, 127);
+            }
+        </code>
+    </pre>
+
+    <p>La etiqueta <code>&#60 h1 &#62</code> se utiliza para representar titulos de primer nivel</p>    <!-- &#60 = < 
+                    &#620 > -->
+
+    <!-- Simbolo de copyright -->
+    &copy;
+
+</body>
+</html>

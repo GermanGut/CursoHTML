@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otras etiquetas de bloque</title>
+</head>
+<!-- 
+        address -> se utiliza para aportar info de contacto para el article mas cercano o para todo ell body
+
+        blockquote -> se utiliza para marcar las citas a otros autores o documentos
+            Se puede incluir el atributo cite para poner un enlace al documento original o fuente
+
+        pre -> Se utiliza para tener codigo preformateado que necesita ser representado igual que se escribio
+
+        div -> se usa como division del documento, semanticamente no significa nada
+            Es un contenedor generico que se usa gralmente para dar estilos a traves de CSS o para usar algo denominado "delegacion de eventos" en JS
+
+        hr -> horizontal rule, se utiliza para decirle al navegador que vamos a cambiar de tema
+     -->
+<body>
+    
+    <address>
+        Tony Stark <br>
+        Malibu 90265 <br>
+        10800 <br>
+        California
+    </address>
+
+    <blockquote cite="https://www.lipsum.com/"> <!-- Solo sirve para el navegador -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laborum explicabo sequi optio, numquam culpa dolorum soluta assumenda voluptatum architecto atque reiciendis debitis et dolor quidem voluptate? Sed, inventore qui! <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis odio amet quis temporibus praesentium! Facilis animi aspernatur quod libero assumenda minima veritatis et est voluptas, repellat, accusantium iure! Quam.
+        </p>
+    
+    <pre>   <!-- Cuando queremos que el contenido se vea igual al original -->
+        Hola,
+        que tal?
+    </pre>
+
+    <div>   <!-- contenedor generico, para dar estilos en CSS -->
+        <h2>Nombre</h2>
+        <p>email</p>
+        <p>Description</p>
+    </div>
+    <div>   <!-- contenedor generico, para dar estilos en CSS -->
+        <h2>Nombre</h2>
+        <p>email</p>
+        <p>Description</p>
+    </div>
+
+    <hr>    <!-- Cambiar de tema en el siguiente parrafo -->
+        
+    </blockquote>
+</body>
+</html>

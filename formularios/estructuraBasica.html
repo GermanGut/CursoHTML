@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura basica de un formulario</title>
+</head>
+
+<!-- 
+    La estructura de un formulario consta de 4 elementos:
+        form -> Etiqueta que engloba nuestro formulario
+        label -> Sirve para escribir el nombre del campo a rellenar
+            debe tener el atributo FOR al cual se le indica un ID que lo que hara sera EMPAREJAR  el label con su input correspondiente.
+        input -> Sirve para crear un cmapo que permitira el usuario interactuar
+            El unico atributo obligatorio es NAME
+        button -> Crea un boton para enviar el formulario
+ -->
+
+<body>
+
+    <form>  <!-- action="enviar.html" -->
+        <label for="name">Nombre</label>
+        <input id="name">
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>
